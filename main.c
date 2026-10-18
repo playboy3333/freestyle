@@ -1,8 +1,11 @@
+
 #include <stdio.h>
 
-int main(void)
-{
-    float temperature = 25.85;
-    printf("the temperature is %f\n", temperature);
+int main(void) {
+    float temperature = 29.5 , humidity =65.0;;
+
+    printf("Temperature: %.1f C\n", temperature);
+    printf("Humidity: %.1f %%C\n", humidity);
+
     return 0;
 }
